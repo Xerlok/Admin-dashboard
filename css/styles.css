@@ -242,3 +242,26 @@ p {
     border-radius: 2%;
     box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.178);
 }
+
+.trending-cards {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.trending-cards p {
+    font-size: 1rem;
+    line-height: 0.5rem;
+}
+
+.trending-cards p.tag {
+    font-family: robotoBold;
+}
+
+.trending-cards p.prj {
+    color: rgb(102, 102, 102);
+}
+
+.trending-cards img {
+    height: 60px;
+}
