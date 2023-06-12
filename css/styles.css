@@ -191,6 +191,7 @@ p {
 .sidebar-img {
     height: 30px;
     filter: invert(100%) sepia(3%) saturate(0%) hue-rotate(262deg) brightness(103%) contrast(100%);
+    cursor: pointer;
 }
 
 .sidebar-btn {
@@ -200,12 +201,12 @@ p {
     font-size: 1rem;
     font-family: robotoBold;
     cursor: pointer;
-    width: 150px;
+    width: 125px;
     text-align: start;
 }
 
-.sidebar-btn:active {
-    box-shadow: rgba(40, 170, 255, 0.25) 0 0 0 .125em;
+.sidebar-btn:hover {
+    border-left: 2px solid white;
 }
 
 .container.main-content {
@@ -258,6 +259,7 @@ p {
 
 .projects-buttons img {
     height: 30px;
+    cursor: pointer;
 }
 
 .anouncements {
@@ -338,6 +340,7 @@ p {
 
 .trending-cards p.tag {
     font-family: robotoBold;
+    cursor: pointer;
 }
 
 .trending-cards p.prj {
@@ -346,4 +349,5 @@ p {
 
 .trending-cards img {
     height: 60px;
+    cursor: pointer;
 }
