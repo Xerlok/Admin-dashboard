@@ -21,6 +21,14 @@ body {
     font-size: 1.2rem;
 }
 
+h1,h2,h3,h4 {
+    margin: 0px;
+}
+
+p {
+    margin: 14px 0px;
+}
+
 .wrapper-main {
     display: grid;
     grid-template: 1fr 5fr / 1fr 5fr;
@@ -163,15 +171,38 @@ body {
     font-family: robotoBold;
 }
 
-.project-cards {
-    height: 150px;
-    width: 300px;
+.projects-cards {
+    display: grid;
+    height: 200px;
+    width: 400px;
     background-color: white;
-    padding: 1rem;
+    padding: 1.5rem;
+    border-radius: 2%;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.178);
+    border-left: 10px solid orange;
+}
+
+.projects-text p {
+    color: rgb(102, 102, 102);
+}
+
+.projects-buttons {
+    align-self: end;
+    justify-self: end;
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+    align-content: flex-end;
+}
+
+.projects-buttons img {
+    height: 30px;
 }
 
 .anouncements {
-    
+    display: grid;
+    grid-template-rows: 0.2fr 1fr;
+    gap: 1rem;
 }
 
 .anouncements-header {
@@ -180,19 +211,34 @@ body {
 
 .anouncements-wrapper {
     background-color: white;
+    height: 300px;
+    width: 250px;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     gap: 1rem;
+    padding: 1.5rem;
+    border-radius: 2%;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.178);
 }
 
 .trending {
-
+    display: grid;
+    grid-template-rows: 0.2fr 1fr;
+    gap: 1rem;
 }
 
 .trending-header {
     font-family: robotoBold;
 }
 
-.trending-cards {
+.trending-wrapper {
     background-color: white;
+    height: 300px;
+    width: 250px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 1rem;
+    padding: 1.5rem;
+    border-radius: 2%;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.178);
 }
